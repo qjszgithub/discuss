@@ -19782,7 +19782,7 @@ return jQuery;
      * @param {Array} arrays The arrays to inspect.
      * @param {Function} [iteratee] The iteratee invoked per element.
      * @param {Function} [comparator] The comparator invoked per element.
-     * @returns {Array} Returns the new array of share values.
+     * @returns {Array} Returns the new array of shared values.
      */
     function baseIntersection(arrays, iteratee, comparator) {
       var includes = comparator ? arrayIncludesWith : arrayIncludes,
