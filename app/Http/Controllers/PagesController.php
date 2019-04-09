@@ -8,6 +8,7 @@ class PagesController extends Controller
 {
     //
     public function root(){
+//        dd(auth()->user()->hasVerifiedEmail());
         return view('pages.root');
     }
 }
